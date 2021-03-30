@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.GameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/game_question_text"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Question" />
+
+        <Button
+            android:id="@+id/game_answer1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/holo_red_light"
+            android:background="@android:color/white"
+            android:textSize="20sp"
+            android:text="Answer1" />
+
+        <Button
+            android:id="@+id/game_answer2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/holo_red_light"
+            android:background="@android:color/white"
+            android:textSize="20sp"
+            android:text="Answer2"  />
+
+        <Button
+            android:id="@+id/game_answer3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/holo_red_light"
+            android:background="@android:color/white"
+            android:textSize="20sp"
+            android:text="Answer3"  />
+
+        <Button
+            android:id="@+id/game_answer4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/holo_red_light"
+            android:background="@android:color/white"
+            android:textSize="20sp"
+            android:text="Answer4"  />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
